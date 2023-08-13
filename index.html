@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get IP address</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="ip"></h1>
+
+    <div class="box">
+      <input type="text" id="inputEle" placeholder="Enter IP?" />
+      <button id="btnEle">IP Lookup</button>
+      <table id="myTable"></table>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+  </body>
+</html>
